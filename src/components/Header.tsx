@@ -9,7 +9,7 @@ import { RiUser3Line } from "react-icons/ri";
 function Header() {
   return (
  <header className='overflow-x-hidden'>
-  <nav className='flex justify-around items-center h-[80px] border-b-[1px] border-solid border-[#D9D9D9]'>
+  <nav className='flex justify-around items-center h-[80px] border-b-[1px] border-solid border-[#D9D9D9] overflow-x-hidden'>
     <h1 className='font-bold text-[24px] ssm:text-[20px] xsm:text-[18px]'>
       Exclusive
     </h1>

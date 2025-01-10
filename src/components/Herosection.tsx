@@ -7,7 +7,7 @@ import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
 
 function Herosection() {
   return (
-    <section className='w-screen grid grid-cols-3 gap-6 ssm:grid-rows-2 ssm:grid-cols-2 xsm:grid-cols-2 xsm:grid-rows-2'>
+    <section className='w-screen grid grid-cols-3 gap-6 ssm:grid-rows-2 ssm:grid-cols-2 xsm:grid-cols-2 xsm:grid-rows-2 overflow-x-hidden'>
         <div className=' border-r-[1px] border-solid border-[#D9D9D9] flex justify-center items-center ssm:col-span-2 ssm:flex-col xsm:flex-col xsm:col-span-2'>
             <h3 className='font-bold text-[28px] md:hidden msm:hidden sm:hidden'>Catagories</h3>
             <ul className='mt-3'>
